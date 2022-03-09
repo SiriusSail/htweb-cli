@@ -1,12 +1,13 @@
 {
   "name": "htweb-cli",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "",
   "main": "./bin/index.js",
   "bin": {
     "htweb-cli": "./bin/index.js"
   },
   "scripts": {
+    "publish": "./publish.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
